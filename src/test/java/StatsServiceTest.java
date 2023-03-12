@@ -63,6 +63,7 @@ public class StatsServiceTest {
         long actual = service.monthMaxSales(sales);
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateLessThanAverageSales() {
         long[] sales = {
